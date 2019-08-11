@@ -1,0 +1,13 @@
+#ifndef __BANKING_COMMON_DEC1_H__
+#define __BANKING_COMMON_DEC1_H__
+
+#define CUS_NUM 10
+#define NAME_LEN 20
+
+enum{MAKE=1, DEPOSIT, WITHDRAW, INQUIRE, EXIT};
+
+enum{NORMAL=1, CREDIT};
+
+enum{LEVEL_A=7, LEVEL_B=4, LEVEL_C=2};
+
+#endif
