@@ -5,13 +5,13 @@
 using namespace std;
 
 #include "Account.h"
-
+#include "StringClass.h"
 class NormalAccount: public Account
 {
   int rate;
 
 public:
-  NormalAccount(int id, String name[], int balance, int rate): Account(id, name, balance), rate(rate)
+  NormalAccount(int id, String name, int balance, int rate): Account(id, name, balance), rate(rate)
   {}
 
   void Deposit(int money)

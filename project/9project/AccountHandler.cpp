@@ -28,7 +28,7 @@ AccountHandler::~AccountHandler()
 void AccountHandler::MakeAccount()
 {
   int i, b, choice;
-  String n[NAME_LEN];
+  String n;
   //char * n[NAME_LEN];
 
   cout<<"1. 보통예금계좌 2. 신용신뢰계좌, 선택: ";

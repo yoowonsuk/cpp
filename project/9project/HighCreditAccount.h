@@ -6,13 +6,14 @@ using namespace std;
 
 #include "NormalAccount.h"
 #include "BankingCommonDec1.h"
+#include "StringClass.h"
 
 class HighCreditAccount: public NormalAccount
 {
   int rank;
 
 public:
-  HighCreditAccount(int id, String name[], int balance, int rate, int rank): NormalAccount(id, name, balance, rate), rank(rank)
+  HighCreditAccount(int id, String name, int balance, int rate, int rank): NormalAccount(id, name, balance, rate), rank(rank)
   {}
 
   void Deposit(int money)
